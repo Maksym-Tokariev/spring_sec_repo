@@ -18,7 +18,7 @@ import java.util.Set;
  * Implementation of {@link org.springframework.security.core.userdetails.UserDetailsService} interface.
  */
 
-
+@Service
 public class UserDetailsServiceImpl implements UserDetailsService {
 
     @Autowired
